@@ -94,7 +94,14 @@ def check_current_result(game_id):
            gamelink
 
 
-def send_push_update(slack_token):
+def send_push_update(slack_token,
+                     home_team,
+                     current_result,
+                     away_team,
+                     complete_game_status,
+                     period_figures_complete,
+                     shots_complete,
+                     gamelink):
     sc = SlackClient(slack_token)
 
     message = '{} {} {} \n{} \n{} \n{} \n{}'.format(home_team,
