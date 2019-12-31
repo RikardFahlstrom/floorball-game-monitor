@@ -1,4 +1,7 @@
 # Floorball game monitor
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c82f8b283d9045a681cd4b03c03788ec)](https://www.codacy.com/manual/rikard.fahlstrom/floorball-game-monitor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RikardFahlstrom/floorball-game-monitor&amp;utm_campaign=Badge_Grade)
+
+## Overview
 Since the official iPhone app for the Swedish Floorball association  
 do not support push notifications for match events, I created  
 my own scraping script that checks for changes in specific match result  
