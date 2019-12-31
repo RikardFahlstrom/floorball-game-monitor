@@ -15,8 +15,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-*  Python 3.6 or above
-*  A Slack app which can post messages to a specific channel based on an incoming webhook
+*   Python 3.6 or above
+*   A Slack app which can post messages to a specific channel based on an incoming webhook
 
 ### Installing
 
@@ -52,13 +52,13 @@ To schedule upcoming games via crontab
 * * * * * python3 <absolute_path_to_program.py> <game_id> <game_start_time> 
 ```
 Where
-*  `<game_id>` is found in the URL from a specific game detail view
-*  `<game_start_time>` is start time of the specific game in format `%Y-%m-%d %H:%M`
+*   `<game_id>` is found in the URL from a specific game detail view
+*   `<game_start_time>` is start time of the specific game in format `%Y-%m-%d %H:%M`
 
 Specific example with [this game](https://innebandy.se/statistik/sasong/37/serie/11566/match/503033)
-*  crontab schedule `02 19 03 01 *`
-*  `<game_id>` is 503033
-*  `<game_start_time>` is "2020-01-03 19:00"
+*   crontab schedule `02 19 03 01 *`
+*   `<game_id>` is 503033
+*   `<game_start_time>` is "2020-01-03 19:00"
 
 Ends up with
 ```bash
