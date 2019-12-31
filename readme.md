@@ -68,4 +68,4 @@ Please open an issue or send a pull request.
 
 ## Acknowledgments
 
-*  [README-template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.js) - The template I used as a starting point
+*  [README-template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.js)  - The template I used as a starting point
